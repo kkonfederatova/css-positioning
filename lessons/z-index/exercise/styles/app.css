@@ -1,0 +1,19 @@
+.circle {
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+}
+
+.circle-blue {
+  background: blue;
+  z-index: 1;
+}
+
+.circle-red {
+  background: red;
+  opacity: 0.5;
+  z-index: 2;
+}
